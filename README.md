@@ -16,4 +16,4 @@
 * git commit -m "add new commits"
 * git push
 * 打开github网站，定位到对应远程版本库
-* pull merge request
+* 点击new pull request按钮，按照操作指引请求合并到master分支
