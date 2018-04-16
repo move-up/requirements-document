@@ -1,31 +1,19 @@
 # requirements-document
 (●￣(ｴ)￣●)提供的需求文档
 
-## git上传流程
+## git开发协作流程
 
-### git add .
+最开始在master分支下：
 
-### git commit -m 'write something'
-
-### git push
-
-//新建分支并切换到新的分支
-### git checkout -b '分支名'
-
-//切换分支
-### git checkout '分支名'
-
-//查看状态
-### git status
-
-将本地新建分支跟远程关联起来
-###  git push --set-upstream origin dev-baobao
-
-切换分支
-### git checkout ""
-
-新建并切换到新的分支
-### git checkout -b ""
-
-查看状态
-### git status
+* git checkout -b dev-baobao(如果有dev-baobao就不需要-b)
+* 在这个分支上开发
+* git checkout master
+* git pull
+* git checkout dev-baobao
+* git merge master
+* 如果有冲突解决冲突（在编辑器里会有提示哪里冲突了的）
+* git add .(添加你要提交的文件到暂存区，一般全选就为`.`、或者填写文件名用空格分隔)
+* git commit -m "add new commits"
+* git push
+* 打开github网站，定位到对应远程版本库
+* 点击new pull request按钮，按照操作指引请求合并到master分支
