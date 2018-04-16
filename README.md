@@ -8,3 +8,15 @@
 ### git commit -m 'write something'
 
 ### git push
+
+将本地新建分支跟远程关联起来
+###  git push --set-upstream origin dev-baobao
+
+切换分支
+### git checkout ""
+
+新建并切换到新的分支
+### git checkout -b ""
+
+查看状态
+### git status
