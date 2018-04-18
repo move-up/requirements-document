@@ -12,4 +12,4 @@
 4. 提供一个"全部删除"功能的按钮，删除前提供删除确认的提示。
 
 ###  成果展示
-   [预览](http://www.baidu.com)
+   [预览](https://move-up.github.io/vue-study-note/dist/index.html#/todolist)
