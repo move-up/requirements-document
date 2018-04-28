@@ -11,4 +11,4 @@
 3. 理解mixin的用法
 
 ###  成果展示
-    [预览](http://www.baidu.com)
+[预览](http://www.baidu.com)
