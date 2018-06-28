@@ -10,4 +10,4 @@
 
 ###  成果展示
 
-[预览](http://www.baidu.com)
+[预览](https://move-up.github.io/vue-study-note/dist/index.html#/typeof)
