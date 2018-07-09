@@ -12,4 +12,4 @@
 
 ###  成果展示
 
-[预览]()
+[预览](https://move-up.github.io/vue-study-note/dist/index.html#/render)
